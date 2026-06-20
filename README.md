@@ -195,7 +195,7 @@ references below).
   author       = {Fadeev, V. A.},
   title        = {OpenCrack: A Consolidated, Leakage-Controlled Benchmark for Pavement Crack Segmentation},
   year         = {2026},
-  howpublished = {\url{https://github.com/fadeevla/opencrack}}
+  howpublished = {\url{https://github.com/fadeevla/OpenCrack}}
 }
 ```
 
