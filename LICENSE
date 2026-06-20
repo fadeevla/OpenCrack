@@ -1,0 +1,18 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 V. A. Fadeev
+
+This license applies to the contents authored in this repository: the README,
+the dataset roster, the compiled results and tables, and the presentation. You
+are free to share and adapt this material for any purpose, provided you give
+appropriate credit (cite the work; see "Citing this work" in the README).
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+IMPORTANT: scope of this license
+This CC BY 4.0 license covers the benchmark specification and documentation
+ONLY. It does NOT relicense the underlying source images or annotations. Each
+consolidated source dataset remains under its own original license and must be
+obtained from its original provider, subject to that provider's terms. See the
+References section of the README for the source datasets and their providers.
