@@ -80,10 +80,12 @@ IoU and clIoU(τ=4) as image-weighted (micro) means over the 6,910 positives, wi
 | Hybrid-Segmentor [12] | 0.402 [0.395, 0.409] | 0.265 | 0.468 [0.460, 0.476] | 0.379 |
 
 The trained nnU-Net leads on both metrics with confidence-interval-disjoint margins. The comparison
-against **OmniCrack30k** is the informative one: it is the *same* nnU-Net v2 framework, architecture,
-and 500-epoch budget, trained on a prior composite instead of OpenCrack. The **+0.11 IoU** gap
-between them (and +0.058 clIoU macro, 0.691 vs 0.633) therefore measures the value of in-domain
-training on the consolidated benchmark, with architecture held fixed.
+against **OmniCrack30k** is the informative one: both are the *same* nnU-Net v2 self-configuring
+pipeline, applied to a different training corpus (a prior composite instead of OpenCrack). Our model
+leads by **+0.11 IoU** (and +0.058 clIoU macro, 0.691 vs 0.633) with a *smaller* training budget — a
+single fold at 500 epochs, against OmniCrack30k's default schedule (a five-fold ensemble at nnU-Net's
+default 1,000 epochs). The gap therefore reflects the value of the OpenCrack training data within the
+same automated method, not architecture or budget tuning.
 
 ### Full five-metric matrix (OpenCrack, n = 6,910)
 
